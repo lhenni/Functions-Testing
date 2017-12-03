@@ -10,6 +10,7 @@ tmp/
 # Xtext
 # including generated code here for review
 #src-gen/
+*._trace
 **/model/generated/
 .antlr-generator-*-patch.jar
 
