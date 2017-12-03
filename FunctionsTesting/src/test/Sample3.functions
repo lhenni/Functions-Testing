@@ -1,0 +1,6 @@
+functions: Sample3
+function f3 {
+	execute {
+		System.out.println("Hi from f3");
+	}
+}

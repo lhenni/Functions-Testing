@@ -1,0 +1,26 @@
+import functions from external
+import functions from sample with prefix sample
+
+functions: sample2
+
+function f {
+	execute {
+		System.out.println("Hi from sample2");
+	}
+}
+
+function testExternalCall {
+	call external1
+}
+
+function testLocalCallWithDuplicateName {
+	call f
+}
+
+function testExternalCallWithPrefix {
+	call sample_f
+}
+
+function testExternalCallWithPrefix2 {
+	call sample_f2
+}

@@ -1,0 +1,6 @@
+functions: external
+function external1 {
+	execute {
+		System.out.println("Hi from external");
+	}
+}

@@ -1,0 +1,28 @@
+# Eclipse/Java
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.class
+
+# Xtext
+# including generated code here for review
+#src-gen/
+**/model/generated/
+.antlr-generator-*-patch.jar
+
+# EMF
+model-gen/
+
+# Xtend
+xtend-gen/
+*._trace
+*.xtendbin
+
+# Maven
+target/
+
+# Custom
+EvaluationData

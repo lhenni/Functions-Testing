@@ -1,0 +1,7 @@
+functions: DummyFile
+
+function Dummy {
+	execute {
+		System.out.println("Hi from dummy");
+	}
+}

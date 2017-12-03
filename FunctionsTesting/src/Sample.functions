@@ -1,0 +1,11 @@
+functions: sample
+
+function f {
+	execute {
+		System.out.println("Hi");
+	}
+}
+
+function f2 {
+	call f
+}
