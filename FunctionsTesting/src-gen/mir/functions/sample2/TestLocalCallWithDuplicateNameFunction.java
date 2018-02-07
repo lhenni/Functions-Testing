@@ -15,7 +15,7 @@ public class TestLocalCallWithDuplicateNameFunction {
     }
     
     public void callFunction1(@Extension final FunctionsFacade _functionsFacade) {
-      _functionsFacade.f();
+      _functionsFacade.sample_f();
     }
   }
   

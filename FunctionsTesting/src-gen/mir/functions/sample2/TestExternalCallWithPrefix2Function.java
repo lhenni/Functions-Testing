@@ -15,7 +15,7 @@ public class TestExternalCallWithPrefix2Function {
     }
     
     public void callFunction1(@Extension final FunctionsFacade _functionsFacade) {
-      _functionsFacade.sample_f2();
+      _functionsFacade.sample_f3();
     }
   }
   

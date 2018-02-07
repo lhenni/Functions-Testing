@@ -45,4 +45,14 @@ public class FunctionsFacade {
     mir.functions.sample.F2Function calledFunction = new mir.functions.sample.F2Function();
     return calledFunction.executeFunction();
   }
+  
+  public boolean sample_f3() {
+    mir.functions.sample.F3Function calledFunction = new mir.functions.sample.F3Function();
+    return calledFunction.executeFunction();
+  }
+  
+  public boolean sample4_f3() {
+    mir.functions.sample4.F3Function calledFunction = new mir.functions.sample4.F3Function();
+    return calledFunction.executeFunction();
+  }
 }

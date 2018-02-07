@@ -9,3 +9,7 @@ function f {
 function f2 {
 	call f
 }
+
+function f3 {
+	call f
+}

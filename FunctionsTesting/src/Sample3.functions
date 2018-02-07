@@ -1,0 +1,6 @@
+functions: Sample4
+function f3 {
+	execute {
+		System.out.println("Hi from f3 from Sample4 in Sample3.functions");
+	}
+}
